@@ -43,7 +43,7 @@ This table compares the error metrics between different solution methods under t
 | --------- | ------- | ----------------- | -------------------------- |
 | MOL       | -       | -                 | 0.1599                     |
 | ADI       | 0.3627  | 16.8947           | 8.99                       |
-| FVM       | 0.679   | 27.4366           | 0.3091                     |
+| FVM       | 0.3339  | 13.539            | 0.07                       |
 | ML Model  | 0.51088 | 15.3535           | 0.22                       |
 
 ---
