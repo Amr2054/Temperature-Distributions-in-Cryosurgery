@@ -11,12 +11,6 @@ This project uses a Physics-Informed Neural Network (PINN) to model and predict 
 
 ## Getting Started
 
-### Run on the Cloud (Recommended)
-
-A ready-to-use cloud solution is available at `link`
-
-### Run Locally
-
 1. Clone this repository to your local machine.
 2. Install the required dependencies:
     ```bash
