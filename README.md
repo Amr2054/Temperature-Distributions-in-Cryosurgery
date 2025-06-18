@@ -10,7 +10,6 @@ This project explores the numerical solution of the heat equation applied to **c
 - [📂 Solving Methods](#-solving-methods)
 - [📊 Error Comparison](#-error-comparison)
 - [📝 Project Report](#-project-report)
-- [🧠 Author](#-author)
 - [📜 License](#-license)
 
 ---
@@ -25,12 +24,12 @@ This project aims to model and solve the **bio-heat transfer equation** (heat eq
 
 ## 📂 Solving Methods
 
-| 🧪 Method                            | 🌿 Branch                                                            |
-| ------------------------------------ | -------------------------------------------------------------------- |
-| Method of Lines (MOL)                | [`mol-method`](https://github.com/yourusername/repo/tree/mol-method) |
-| Alternating Direction Implicit (ADI) | [`adi-method`](https://github.com/yourusername/repo/tree/adi-method) |
-| Finite Volume Method (FVM)           | [`fvm-method`](https://github.com/yourusername/repo/tree/fvm-method) |
-| Machine Learning (ML) Prediction     | [`ml-model`](https://github.com/yourusername/repo/tree/ml-model)     |
+| 🧪 Method                            | 🌿 Branch                                                                                    |
+| ------------------------------------ | -------------------------------------------------------------------------------------------- |
+| Method of Lines (MOL)                | [`mol-method`](https://github.com/yourusername/repo/tree/mol-method)                         |
+| Alternating Direction Implicit (ADI) | [`adi-method`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/blob/ADI) |
+| Finite Volume Method (FVM)           | [`fvm-method`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/blob/FV)  |
+| Machine Learning (ML) Prediction     | [`ml-model`](https://github.com/yourusername/repo/tree/ml-model)                             |
 
 Each method is implemented and analyzed individually, with a focus on comparing their accuracy, computational performance, and applicability to real-world cryosurgical scenarios. The results are visualized through temperature plots and error analyses to offer insights into how each method performs under identical physical parameters.
 
@@ -38,18 +37,14 @@ Each method is implemented and analyzed individually, with a focus on comparing 
 
 ## 📊 Error Comparison
 
-This table compares the error metrics (e.g., L2 norm or maximum absolute error) between different solution methods under the same initial and boundary conditions.
+This table compares the error metrics between different solution methods under the same initial and boundary conditions.
 
-| ⚙️ Method | 📈 Max Error (°C) | 📉 Mean Error (°C) |
-| --------- | ----------------- | ------------------ |
-| MOL       | 2.13              | 1.04               |
-| ADI       | 1.67              | 0.89               |
-| FVM       | 1.90              | 0.96               |
-| ML Model  | 2.45              | 1.12               |
-
-📁 Raw data available in [`error_comparison.csv`](./results_overview/error_comparison.csv)
-
-📊 [Optional: View Error Plot](./results_overview/error_plot.png)
+| ⚙️ Method | 📈 MAE  | 📈 Max Error (°C) | 📉 Execution time(seconds) |
+| --------- | ------- | ----------------- | -------------------------- |
+| MOL       | -       | -                 | 0.1599                     |
+| ADI       | 0.3627  | 16.8947           | 8.99                       |
+| FVM       | 0.679   | 27.4366           | 0.3091                     |
+| ML Model  | 0.51088 | 15.3535           | 0.22                       |
 
 ---
 
@@ -66,13 +61,6 @@ The report includes:
 - 🧠 Implementation highlights
 - 📊 Performance comparison and discussion
 - 🔮 Conclusions and future improvements
-
----
-
-## 🧠 Author
-
-**Amr Ahmed**  
-🔗 [LinkedIn](#) | 🐦 [Twitter](#)
 
 ---
 
