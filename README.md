@@ -22,11 +22,11 @@ These 2D contour plots show how the freezing region expands over time(t:30,60,90
 
 #### 🔹 Automatic scaling of the vertical axis by matplot
 
-![Auto Scale](./results/ADI%202d%20auto.jpg)
+![Auto Scale](./Results/ADI%202d%20auto.jpg)
 
 #### 🔹 Fixed Scaling of the vertical axis (-200,0)
 
-![Step 10](./results/ADI%202d%20fixed.jpg)
+![Step 10](./Results/ADI%202d%20fixed.jpg)
 
 ---
 
@@ -34,7 +34,7 @@ These 2D contour plots show how the freezing region expands over time(t:30,60,90
 
 The 3D plots below provide a depth perspective of how the temperature profile evolves through the tissue layers over time(t:30,60,90,120), r(r:0-5), z(z:0-10).
 
-![3D](./results/ADI%203d.jpg)
+![3D](./Results/ADI%203d.jpg)
 
 >
 
