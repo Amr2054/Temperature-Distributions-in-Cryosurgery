@@ -1,4 +1,4 @@
-# Modeling Temperature Distributions in Cryosurgery 🧊🔥
+# Modeling Temperature Distributions in Cryosurgery 🧊
 
 This project explores the numerical solution of the heat equation applied to **cryosurgery temperature modeling**, using three numerical methods and one machine learning approach.
 
