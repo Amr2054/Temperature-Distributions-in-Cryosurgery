@@ -126,31 +126,12 @@ def plot_temperature_distribution(model, t):
 def parse_numbers(input_str):
     return [int(num.strip()) for num in input_str.split(",")]
 
-
 def grid_input():
-    times = input(
-        "Enter the times at which you'd like to visualize the temperature distribution, separated by commas (e.g., 0, 30, 60):"
-    )
+    times = input("Enter the times at which you'd like to visualize the temperature distribution, separated by commas (e.g., 0, 30, 60):")
     return parse_numbers(times)
 
 
-while True:
-    mode = int(
-        input(
-            "select one of the following options:\n(1) single point prediction – predict the temperature at a specific time and location (t, r, z).\n(2) slice/grid visualization – visualize the temperature distribution across a spatial slice at selected times.\n"
-        )
-    )
 
-    if mode == 1:
-        t = int(input("time: "))
-        r = int(input("r: "))
-        z = int(input("z: "))
 
-        print(predict_temp(t=t, r=r, z=z))
-    elif mode == 2:
-        plot_temperature_distribution(model, grid_input())
-    else:
-        print("Please choose option (1) or (2)")
-        continue
 
-    break
+
