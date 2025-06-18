@@ -24,12 +24,12 @@ This project aims to model and solve the **bio-heat transfer equation** (heat eq
 
 ## 📂 Solving Methods
 
-| 🧪 Method                            | 🌿 Branch                                                                                    |
-| ------------------------------------ | -------------------------------------------------------------------------------------------- |
-| Method of Lines (MOL)                | [`mol-method`](https://github.com/yourusername/repo/tree/mol-method)                         |
-| Alternating Direction Implicit (ADI) | [`adi-method`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/blob/ADI) |
-| Finite Volume Method (FVM)           | [`fvm-method`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/blob/FV)  |
-| Machine Learning (ML) Prediction     | [`ml-model`](https://github.com/yourusername/repo/tree/ml-model)                             |
+| 🧪 Method                            | 🌿 Branch                                                                                                       |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Method of Lines (MOL)                | [`mol-method`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/tree/MOL?tab=readme-ov-file) |
+| Alternating Direction Implicit (ADI) | [`adi-method`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/blob/ADI)                    |
+| Finite Volume Method (FVM)           | [`fvm-method`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/blob/FV)                     |
+| Machine Learning (ML) Prediction     | [`ml-model`](https://github.com/Amr2054/Temperature-Distributions-in-Cryosurgery/tree/ML?tab=readme-ov-file)    |
 
 Each method is implemented and analyzed individually, with a focus on comparing their accuracy, computational performance, and applicability to real-world cryosurgical scenarios. The results are visualized through temperature plots and error analyses to offer insights into how each method performs under identical physical parameters.
 
