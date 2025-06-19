@@ -7,6 +7,7 @@ This project uses a Physics-Informed Neural Network (PINN) to model and predict 
 ## Repository Structure
 
 - **`PINN_solution_for_Temperature_Distribution_in_Cryosurgery.ipynb`**: Jupyter Notebook for developing, experimenting with, and visualizing the PINN model.
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_YDuwGagSNFmD5s3sYGy3ggIF-sgwXI6?usp=sharing)
 - **`main.py`**: Command-line interface (CLI) for running the trained model easily.
 
 ## Getting Started
