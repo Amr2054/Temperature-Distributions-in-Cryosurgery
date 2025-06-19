@@ -42,7 +42,7 @@ This table compares the error metrics between different solution methods under t
 | ⚙️ Method | 📈 MAE  | 📈 Max Error (°C) | 📉 Execution time(seconds) |
 | --------- | ------- | ----------------- | -------------------------- |
 | MOL       | -       | -                 | 0.1599                     |
-| ADI       | 0.3627  | 16.8947           | 8.99                       |
+| ADI       | 0.36347 | 16.8947           | 3.25                       |
 | FVM       | 0.679   | 27.4366           | 0.3091                     |
 | ML Model  | 0.51088 | 15.3535           | 0.22                       |
 
