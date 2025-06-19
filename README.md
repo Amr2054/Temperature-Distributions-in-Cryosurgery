@@ -21,3 +21,6 @@ This project uses a Physics-Informed Neural Network (PINN) to model and predict 
     ```bash
     python main.py
     ```
+
+## Results
+![](images/results.png)
