@@ -52,7 +52,7 @@ This table compares the error metrics between different solution methods under t
 
 The full report explains the motivation, mathematical modeling, numerical methods, implementation details, and result interpretation.
 
-📄 [Download Project Report (PDF)](./Report/Cryosurgery_Report.pdf)
+📄 [Download Project Report (PDF)](./Report/Report.pdf)
 
 The report includes:
 
