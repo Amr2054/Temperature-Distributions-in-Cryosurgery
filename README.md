@@ -63,7 +63,10 @@ The report includes:
 - 🔮 Conclusions and future improvements
 
 ---
+## Project Presentation
 
+[Slides](https://www.canva.com/design/DAGqz6PQOBI/SwCFylGj7LO2oa37SZeBqQ/edit?utm_content=DAGqz6PQOBI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+---
 ## 📜 License
 
 Released under the MIT License.
